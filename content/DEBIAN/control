@@ -1,0 +1,9 @@
+Origin: XBian
+Package: xbian-package-headphones
+Version: 1.1
+Section: net
+Priority: optional
+Architecture: armhf
+Depends: xbian-update
+Maintainer: sjengfred <sjengfred@home.nl>
+Description: Headphones compiled, patched and configured for XBian

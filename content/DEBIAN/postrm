@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
+
+# removing config files and database should be performed only if user requested purge
+
+	if [ "$1" == "purge" ]; then
+
+        	        rm -rf /usr/local/share/headphones
+			rm -rf /etc/headphones
+			rm -f /etc/default/headphones
+
+	fi
+
+	true
+
+fi
