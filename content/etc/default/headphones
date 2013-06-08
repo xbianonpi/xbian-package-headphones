@@ -1,6 +1,5 @@
 
-
 ENABLED=1
 
 CONFIG_FILE=/etc/headphones/config.ini
-NICE=0
+NICE=4
