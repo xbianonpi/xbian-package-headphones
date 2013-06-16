@@ -4,6 +4,6 @@ Version: 1.1
 Section: net
 Priority: optional
 Architecture: armhf
-Depends: xbian-update, git
+Depends: xbian-update, git-core
 Maintainer: sjengfred <sjengfred@home.nl>
 Description: Headphones compiled, patched and configured for XBian
