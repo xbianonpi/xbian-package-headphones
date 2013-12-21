@@ -89,7 +89,7 @@ load_settings() {
         DATA_DIR=/usr/local/share/headphones
 
         # Path to store PID file
-        PID_FILE=/tmp/headphones.pid
+        PID_FILE=/run/lock/headphones/headphones.pid
 
         # Path to python bin
         DAEMON=/usr/bin/python
